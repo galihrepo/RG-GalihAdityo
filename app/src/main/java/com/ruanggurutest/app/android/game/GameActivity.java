@@ -109,7 +109,7 @@ public class GameActivity extends BaseActivity implements GameContract.View {
         int category = getIntent().getIntExtra("category", 15);
 
         gamePresenter.setView(this);
-        gamePresenter.getGame(10, category, "multiple");
+        gamePresenter.getGame(20, category, "multiple");
     }
 
     @Override

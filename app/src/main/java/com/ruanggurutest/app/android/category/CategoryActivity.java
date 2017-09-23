@@ -69,15 +69,15 @@ public class CategoryActivity extends BaseActivity implements CategoryContract.V
                         R.drawable.category_general,
                         R.drawable.general,
                         getString(R.string.category_general),
-                        15)
+                        9)
         );
 
         categoryModelList.add(
                 new CategoryModel(
                         R.drawable.category_book,
                         R.drawable.book,
-                        getString(R.string.category_general),
-                        15)
+                        getString(R.string.category_books),
+                        10)
         );
 
         categoryModelList.add(
@@ -85,7 +85,7 @@ public class CategoryActivity extends BaseActivity implements CategoryContract.V
                         R.drawable.category_film,
                         R.drawable.film,
                         getString(R.string.category_film),
-                        15)
+                        11)
         );
 
         categoryModelList.add(
@@ -93,7 +93,7 @@ public class CategoryActivity extends BaseActivity implements CategoryContract.V
                         R.drawable.category_music,
                         R.drawable.music,
                         getString(R.string.category_music),
-                        15)
+                        12)
         );
 
         categoryModelList.add(
@@ -109,7 +109,7 @@ public class CategoryActivity extends BaseActivity implements CategoryContract.V
                         R.drawable.category_tv,
                         R.drawable.tv,
                         getString(R.string.category_tv),
-                        15)
+                        14)
         );
 
         categoryModelList.add(
@@ -117,7 +117,7 @@ public class CategoryActivity extends BaseActivity implements CategoryContract.V
                         R.drawable.category_computer,
                         R.drawable.computer,
                         getString(R.string.category_computer),
-                        15)
+                        18)
         );
 
         categoryModelList.add(
@@ -125,7 +125,7 @@ public class CategoryActivity extends BaseActivity implements CategoryContract.V
                         R.drawable.category_celeb,
                         R.drawable.star,
                         getString(R.string.category_celeb),
-                        15)
+                        26)
         );
 
         categoryModelList.add(
@@ -133,7 +133,7 @@ public class CategoryActivity extends BaseActivity implements CategoryContract.V
                         R.drawable.category_history,
                         R.drawable.history ,
                         getString(R.string.category_history),
-                        15)
+                        23)
         );
 
         categoryModelList.add(
@@ -141,7 +141,7 @@ public class CategoryActivity extends BaseActivity implements CategoryContract.V
                         R.drawable.category_animal,
                         R.drawable.combined_shape,
                         getString(R.string.category_animal),
-                        15)
+                        27)
         );
 
         return categoryModelList;
